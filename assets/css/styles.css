@@ -208,6 +208,7 @@ body.dark-theme {
 .main {
   overflow: hidden;
   /* For the animations ScrollReveal*/
+
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -1263,8 +1264,9 @@ body.dark-theme {
     margin-right: auto;
   }
 
-  .home__container {}
-
+  .home__container {
+    column-gap: 4rem;
+  }
 }
 
 /* For 2K & 4K resolutions */
